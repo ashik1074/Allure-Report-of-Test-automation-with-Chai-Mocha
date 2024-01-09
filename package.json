@@ -1,0 +1,30 @@
+{
+  "name": "appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/local-runner": "^8.27.0",
+    "@wdio/mocha-framework": "^8.27.0",
+    "@wdio/spec-reporter": "^8.27.0",
+    "allure-commandline": "^2.25.0",
+    "appium": "^2.3.0",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "wdio-appium-service": "^0.2.3",
+    "webdriverio": "^8.27.0"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.27.0",
+    "@wdio/cli": "^8.27.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
